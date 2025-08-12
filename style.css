@@ -203,7 +203,7 @@ img {
   /* phones usually under 600px wide */
   /* Nav logo & nav items */
   .navcontainer {
-    margin: 0 0;
+    height: 10vw;
   }
   #navlogo {
     font-size: 5vw;
@@ -243,5 +243,13 @@ img {
   }
   .right {
     margin: 0 1vw;
+  }
+  .landing-text h2 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .landing-text h3 {
+    font-size: 4.6vw;
   }
 }
