@@ -113,6 +113,7 @@ section {
   justify-content: space-between;
   align-items: center;
   margin: 1vh;
+  padding: 1.5vh 1.5vw;
 }
 
 .item1 {
@@ -126,7 +127,8 @@ section {
 }
 
 .right img {
-  max-width: 100%;
+  width: 100%;
+
   height: auto;
   display: block;
   border-radius: 2vw;
@@ -138,7 +140,8 @@ section {
 }
 
 .right {
-  width: 40%;
+  width: 32%;
+
   margin: 2vh;
   align-self: center;
   position: relative;
@@ -177,11 +180,11 @@ img {
 }
 
 .right:hover img {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 .right:hover .overlay {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 .right .overlay {
@@ -240,9 +243,15 @@ img {
   .left {
     width: 90%;
     margin: 0 3vw;
+
+    margin-bottom: 2vh;
+    text-align: center;
+    padding: 2vh 0;
   }
   .right {
     margin: 0 1vw;
+    max-width: 60%;
+  
   }
   .landing-text h2 {
     font-size: 6vw;
